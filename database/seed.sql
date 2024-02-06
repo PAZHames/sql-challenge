@@ -38,7 +38,7 @@ INSERT INTO projects (id, name, topic, repo_url, url) VALUES
   (3, 'Agony Yaunt', 'API', 'https://github.com/FAC-Sixteen/week-3-agony-yaunt', 'https://fac-sixteen.github.io/week-3-agony-yaunt/public/')
 ON CONFLICT DO NOTHING;
 
-INSERT INTO students_projects VALUES
+INSERT INTO students_projects (student_username, project_id) VALUES
   ('oliverjam', 1),
   ('yvonne-liu', 1),
   ('oliverjam', 2),

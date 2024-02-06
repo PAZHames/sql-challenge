@@ -11,6 +11,16 @@
     "node": "18.16.0"
   },
   "dependencies": {
-    "better-sqlite3": "^7.6.2"
-  }
+    "better-sqlite3": "^9.4.0"
+  },
+  "name": "sql-challenge",
+  "description": "Practice writing SQL queries with more complex logic. There's usually more than one way to get the right answer. If your solution is different that's fine!",
+  "version": "1.0.0",
+  "main": "model.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
